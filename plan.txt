@@ -1,0 +1,71 @@
+
+1. Основные категории (по Codex и wiki):
+ • Персонажи (Hunters, главный герой — Сон Джинву)
+ • Оружие (Weapons)
+ • Артефакты (Artifacts)
+ • Ядра (Cores)
+ • Руны (Runes)
+ • Камни благословения (Blessing Stones)
+ • Способности (Skills)
+ • Тени (Shadows, для Джинву)
+ • Меморабилия (Memorabilia)
+
+ 2. Примеры и ссылки на полные списки
+ - Персонажи и их характеристики
+ •  У каждого персонажа есть: имя, класс, ранг, базовые статы (HP, ATK, DEF, CRIT), навыки, экипировка.
+ • Главный герой: Сон Джинву (Sung Jinwoo)
+ • Пример структуры:
+json
+{
+  "name": "Sung Jinwoo",
+  "class": "SSR",
+  "base_stats": {"hp": 28474, "atk": 30060, "def": 5330, "crit": 7953},
+  "skills": [...],
+  "weapons": [...],
+  "artifacts": [...],
+  "cores": [...],
+  "runes": [...],
+  "blessing_stones": [...],
+  "shadows": [...]
+}
+ • Список персонажей можно получить на Fandom Codex(https://solo-leveling-arise.fandom.com/wiki/Codex).
+ - Оружие (Weapons)
+ • Категории: SSR, SR, R.
+ • Примеры SSR-оружия для Джинву:
+     • Demon King's Daggers
+     • Demon King's Longsword
+     • Demonic Plum Flower Sword
+     • Divine Quarterstaff
+     • Fan of the Fire Demon
+     • Gold-Tailed Fox
+     • Juicy Grilled Skewer
+     • Moonshadow
+     • Phoenix Soul
+     • Secured Marlin Surfboard
+     • Shadow Scythe
+     • Skadi
+     • Spooky Pumpkin
+     • Stormbringer
+     • The Huntsman
+     • Thetis' Grimoire
+     • Truth: Demon Knight's Spear
+     • Truth: Kasaka's Venom Fang
+     • Vulcan's Rage
+     • Zeke's Fragment
+  • Подробнее: List of All Weapons (Game8) (https://game8.co/games/Solo-Leveling-Arise/archives/457345)
+ - Артефакты (Artifacts)
+ • Артефакты дают статы и уникальные бонусы.
+ • Есть сеты для тела и аксессуаров (8 сетов для тела, 6 для аксессуаров).
+ • Пример эффектов: увеличение атаки, защиты, HP, крит. шанса, спец. бонусы.
+ • Подробнее: Artifacts Fandom(https://solo-leveling-arise.fandom.com/wiki/Artifacts), Artifacts Guide(https://gamingonphone.com/guides/solo-leveling-arise-the-complete-artifacts-guide-and-tips/)
+ - Камни благословения (Blessing Stones)
+ • Камни дают пассивные или активные эффекты.
+ • Есть тир-листы и полные списки: Blessing Stone Tier List (Game8) (https://game8.co/games/Solo-Leveling-Arise/archives/494262)
+ - Ядра (Cores), Руны (Runes), Способности (Skills), Тени (Shadows)
+ • Все эти сущности представлены в Codex и имеют свои уникальные эффекты и параметры.
+ • Для каждого типа есть отдельные списки на Fandom Codex.
+
+ 3. Что делать дальше:
+ 1) Собрать полные списки по каждой категории (парсить/копировать с wiki и Game8).
+ 2) Сделать структуру JSON для импорта в твой хелпер.
+ 3) Добавить поддержку всех этих сущностей в твой парсер и GUI.
